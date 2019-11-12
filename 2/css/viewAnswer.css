@@ -1,0 +1,385 @@
+@font-face { font-family: fontb;
+    src: url('../fonts/DIN Next LT W23 Bold.ttf'); }
+
+@font-face { font-family: fontBlack;
+    src: url('../fonts/DIN Next LT W23 Black.ttf'); }
+
+
+@font-face { font-family: fontR;
+    src: url('../fonts/DIN Next LT W23 Regular.ttf'); }
+
+@font-face { font-family: fontM;
+    src: url('../fonts/DIN Next LT W23 Medium.ttf'); }
+
+
+
+@font-face { font-family: fontL;
+    src: url('../fonts/helvetica-neue-lt-arabic-45-light.ttf'); }
+
+
+@font-face { font-family: fontHB;
+    src: url('../fonts/helvetica-neue-lt-arabic-75-bold.ttf'); }
+
+
+
+
+
+
+
+body{
+    padding-top: 20px;
+    font-family: fontL;
+      padding: 10px;
+    margin: 10px;
+      overflow-x:hidden;
+    overflow-y:;
+}
+
+
+.d11{
+    width: 83%;
+    height: 64px;
+    background-color: #317588;
+ 
+    border-top-right-radius:20px; 
+    border-top-left-radius:20px; 
+    
+    float: right;
+    
+}
+
+
+
+
+
+.imagelogo{
+     background-color: white;
+    width: 17%;
+  
+
+    border-bottom-right-radius:10px; 
+    border-top-right-radius:0px; 
+    float: left;
+    position: relative;
+   left: 1px;
+    top: 10px;
+    padding: 12px;
+    padding-left: 13px;
+    
+   /* padding-right: 10px;*/
+    
+}
+
+
+
+.clearFix{
+    clear: both;
+}
+
+
+.logo img{
+   /* padding-left: 20px;*/
+
+}
+
+
+
+
+
+
+.rev{
+    background-color:#317588;
+    height:800px;
+
+    
+}
+
+
+
+
+.trueA{
+    text-align: center;
+   
+    margin-bottom: 20px;
+}
+
+.showq {
+     margin-left: 35%;
+    text-align: center;
+    border-radius:20px;
+    background-color: white;
+     color: #317588;
+    font-size: 25px;
+  padding: 8px;
+    font-family:fontM;
+}
+
+
+.quo2{
+    font-size: 18px;
+    font-family: fontHB;
+    text-align: right;
+    color: white;
+    float: right;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+
+
+
+
+table{
+    color: white;
+    width:86%;
+    text-align: center;
+    font-family: fontL;
+    float: right;
+    margin-right: 66px;
+    
+    
+}
+.table{
+    
+   
+    margin: 0px 0px 0px 0px;
+    margin-bottom: 20px;
+    
+   /* bottom: 22px;*/
+    
+}
+
+td img{
+    float: right;
+    padding-left: 4px;
+    margin-top: 6px;
+}
+
+
+td{
+    padding: 8px;
+   background-color: #297287;
+    
+}
+
+.tr1 td{
+    background-color: #317588;
+    font-size: 25px;
+    padding: 0px;
+}
+
+
+.d1{
+    background-color: #4390A5;
+}
+
+
+td:nth-child(3){
+    text-align: right;
+    padding-right: 40px;
+    font-size: 15px;
+}
+
+
+.kh{
+    padding-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+.finshm{
+   padding-left: 140px;
+      color:white;
+    font-size: 15px;
+}
+
+
+.req{
+ 
+    color: #317588;
+     font-size: 18px;
+    padding-left: 200px;
+    
+}
+
+
+
+.req button:hover{
+    background-color: #317588;
+      color:white;
+}
+
+
+
+#cnfbtn span{
+    padding-right: 80px;
+
+}
+#cnfbtn{
+    border-radius: 14px;
+    width: 236px;
+    height: 49px;
+   
+    color:  #317588;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.pf{
+    padding-left: 2px;
+}
+
+
+
+
+.d3{
+    
+     background-color:#317588;
+    height: 120px;
+        border-bottom-left-radius:20px; 
+
+    
+}
+
+
+.aside22{
+  
+   
+height: 10px;
+      background-color:#317588;
+   
+    border-bottom-right-radius:20px; 
+}
+
+
+
+
+
+.imagedown{
+    position: relative;
+   float: right;
+    width: 16%;
+  background-color: white;
+    padding-right: 28px;
+    padding-top: 28px;
+    padding-left: 29px;
+    padding-bottom 2px;
+    padding-bottom: 7px;
+    right: 24px;
+    bottom: 0px;
+    
+     border-top-left-radius: 20px;
+}
+
+
+.imagedown img{
+    margin-bottom: 0px;
+   
+}
+
+
+
+
+
+
+@media(max-width:1200px){
+
+    
+        .d11{
+    width: 76%;
+    }
+    
+    
+    .imagelogo{
+
+    width: 24%;
+    }
+    
+    
+    
+    .imagedown{
+    
+   
+right: 22px;
+
+        
+    }
+}
+
+
+
+
+@media(max-width:992px){
+  
+    
+      
+    .d11{
+    width: 70%;
+    }
+    
+    
+    .imagelogo{
+
+    width: 30%;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+/*end all*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imagelogo img{
+     animation-delay: 0.7s;
+}
+
+
+
+.imagedown img{
+     animation-delay: 0.7s;
+}
+
+
+
+.table{
+    animation-delay: 0.8s;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,374 @@
+
+
+@font-face { font-family: fontL;
+    src: url('../fonts/helvetica-neue-lt-arabic-45-light.ttf'); }
+
+
+@font-face { font-family: fontHB;
+    src: url('../fonts/helvetica-neue-lt-arabic-75-bold.ttf'); }
+
+
+
+
+
+
+
+body{
+
+    padding-top: 30px;
+    font-family: fontL;
+    
+    overflow-x:hidden;
+    overflow-y:hidden;
+
+}
+
+
+
+.logo{
+    padding-bottom: 70px;
+    text-align: center;
+    
+
+}
+
+
+
+.im{
+    float: right;
+    position: relative;
+    right: 470px;
+    bottom: 140px;
+    /*left: 98px;*/
+  
+padding: 0px 0px 0px 0px;
+
+    /*overflow:hidden;*/
+}
+.im img{
+        /*position: relative;*/
+    right: 20px;
+     /* max-height:560px;
+    max-width:750px;*/
+       /* overflow:hidden;*/
+   /* min-width:700px;*/
+}
+
+
+
+.aq{
+    float: left;
+    padding: 0px 0px;
+    
+}
+
+.parag1{
+
+    text-align: right;
+    color:#20A187;
+    font-family: fontHB;
+    font-size:35px;
+margin-left: 20px;
+    padding-bottom: 20px;
+    
+
+}
+
+
+
+.parag2{
+
+    text-align: right;
+    color: #0C5F77;
+
+    font-size:18px;
+    padding-bottom: 30px;
+
+
+}
+
+.parag2 p{
+
+    padding-top: 10px;
+
+
+}
+.parag3 p{
+
+    padding-top: 10px;
+
+
+}
+
+
+.parag2 span{
+
+
+    font-size:22px;
+color: #0C5F77;
+font-family: fontHB;
+}
+
+
+
+.parag3{
+
+    text-align: right;
+    color: #0C5F77;
+
+    font-size:19px;
+    padding-bottom: 30px;
+
+
+}
+
+
+.parag3 span{
+
+ font-family: fontHB;
+    font-size:22px;
+ color: #0C5F77;
+
+}
+.parag3 .radius{
+
+width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline;
+}
+
+
+.parag3 span img{
+padding-left: 8px;
+    padding-top: 2px;
+}
+
+
+
+.button1 .btn{
+    color: white;
+    background-color: #18BC9D;
+    border-radius: 20px;
+    width: 130px;
+    height: 36px;
+}
+
+.button1{
+    padding-left: 70px;
+}
+
+
+
+
+
+/*an*/
+
+
+.parag1{
+    animation-delay: 0.2s;
+}
+
+
+
+.parag2{
+    animation-delay: 1s;
+}
+
+
+.parag3{
+    animation-delay: 1.8s;
+}
+
+
+.button1{
+    animation-delay: 2.5s;
+}
+
+.im{
+    animation-delay: 2.5s;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+
+
+    
+body{
+
+
+    padding-top: 30px;
+    font-family: fontL;
+    
+    overflow-x:hidden;
+    overflow-y:hidden;
+    padding-top: 30px;
+    font-family: fontL;
+    
+    
+
+}
+       
+.im img{
+ width: 900px;
+    height: 600px;
+ 
+    
+    
+}
+    
+    
+.im {
+ 
+   
+   
+   
+padding: 0px 0px;
+
+    
+    
+  
+    padding: 0px 0px 0px 0px;
+}    
+    
+    .aq{
+    
+       
+    }
+    
+    
+.button1 .btn{
+ width: 160px;
+    height: 40px;
+}
+ 
+    .parag1{
+/*padding-top: 160px;*/
+}
+    
+    
+}
+
+
+
+
+@media(max-width:992px){
+
+    body{
+    
+overflow-x:visible;
+    overflow-y:visible;
+}
+
+
+
+.im{
+   padding-right:0px;
+    padding: 0px 0px 0px 0px;
+    margin:  0px 0px 0px 0px;
+    right: 100px;
+    
+   
+}
+
+
+.im img{
+  width: 960px;
+    height: 620px;
+   
+    
+}
+
+
+.aq{
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+.parag1{
+    text-align: center;
+    /*font-size: 22px;*/
+    
+}
+
+
+.parag2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 22px;
+}
+
+
+.parag3{
+    text-align: center;
+     padding-top: 40px;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+.parag1 span{
+    font-size:38px;
+    font-family: fontBlack;
+    margin-left: 10px;
+
+}
+
+
+
+
+.parag2 span{
+
+
+    font-size:27px;
+
+
+}
+
+
+
+
+.parag3 span{
+
+
+    font-size:27px;
+
+
+}
+
+
+
+.button1 .btn{
+    color: white;
+  
+    width: 156px;
+    height: 43px;
+}
+
+
+.button1 {
+    padding-top: 60px;
+    margin-bottom: 140px;
+}
+
+
+
+
+
+
+
+

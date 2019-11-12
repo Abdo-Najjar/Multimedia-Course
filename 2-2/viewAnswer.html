@@ -1,0 +1,76 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+            <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css"  href="animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/viewAnswer.css">
+    <title>View Answer </title>
+</head>
+    <body class="animated bounceInLeft">
+         
+   
+        <div class="d11 "> 
+            <div class="animated  nav col-lg-10">
+             
+            </div>
+        </div> 
+        
+        
+         <div class="imagelogo "><img class="animated bounceInLeft" src="imags/logo2.png"></div>
+        
+           <div class="clearFix" ></div>
+        
+            <div class="rev">
+            
+                <div class="trueA col-lg-12">
+                   <div class="showq  col-lg-3 col-md-4 col-sm-5 col-xs-8 ">
+                  الإجابات الصحيحة
+                    </div>
+                </div>
+                <div class="table animated bounceInRight col-lg-12">
+                  
+                <div id="table">
+          <table>
+
+          <tr class="tr2">
+            <td class="d1">{{questions[0].answer}}</td>
+              <td  style="text-align: right;"><img src="imags/re1.png" >{{questions[0].content}}</td>
+          </tr>
+
+          <tr class="tr3">
+            <td >{{questions[1].answer}}</td>
+            <td  style="text-align: right;" class="d1" ><img src="imags/re2.png" >{{questions[1].content}} </td>
+          </tr>
+
+            <tr class="tr6">
+            <td class="d1">{{questions[2].answer}}</td>
+            <td  style="text-align: right;">  <img src="imags/re3.png" > {{questions[2].content}} </td>
+          </tr>
+
+          </table>
+          </div>
+    </div>
+  </div>
+        <div class="d3 col-lg-10.5 col-md-10 col-sm-10 col-xs-10">
+            
+          
+       
+        </div>
+ <div class="aside22 col-lg-1.5 col-md-2 col-sm-2 col-xs-2"></div>
+     
+        
+        
+            
+    <div class="imagedown "><img class="image9 animated bounceInRight" src="imags/imge9.png" width="150" height="75"></div>
+        
+        
+        
+        
+        
+
+        <script src="js/entities.js"></script>
+        <script src="js/viewAnswer.js"></script>
+      </body>
+</html>

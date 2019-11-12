@@ -1,0 +1,734 @@
+
+
+@font-face { font-family: fontL;
+    src: url('../fonts/helvetica-neue-lt-arabic-45-light.ttf'); }
+
+
+@font-face { font-family: fontHB;
+    src: url('../fonts/helvetica-neue-lt-arabic-75-bold.ttf'); }
+
+
+
+
+
+
+
+body{
+    padding: 10px;
+    margin: 10px;
+    
+    overflow-x:hidden;
+    overflow-y:;
+    font-family: fontL;
+     
+  
+    
+}
+
+.di1{
+    width: 83%;
+    height: 64px;
+    background-color: #34495D;
+ 
+    border-top-right-radius:20px; 
+    border-top-left-radius:20px; 
+    
+    float: right;
+    
+}
+
+
+
+
+
+
+
+.image{
+     background-color: white;
+    width: 17%;
+  
+
+    border-bottom-right-radius:10px; 
+    border-top-right-radius:0px; 
+    float: left;
+    position: relative;
+   left: 1px;
+    top: 10px;
+    padding: 12px;
+    padding-left: 13px;
+    
+   /* padding-right: 10px;*/
+    
+}
+
+
+
+.d2{
+    width:100%;
+  
+    background-color: #34495D;
+   
+    float: left;
+  
+    
+}
+
+.clearFix{
+    clear: both;
+}
+
+
+
+
+
+.showq{
+    text-align: right;
+    margin-top: 10px;
+    /*float: right;*/
+    /*padding-left:380px;*/
+    /*padding-bottom: 0px;*/
+}
+
+.showq p{
+ color: white;
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family:fontHB;
+}
+    
+.showq p #qaa{
+    font-size: 35px;
+  
+    
+    
+}
+
+
+table{
+    color: white;
+    width:92%;
+    text-align: center;
+    
+    float: right;
+    margin-right: 50px;
+    
+    
+}
+.table{
+     width: 100%;
+    padding-top: 12px;
+    padding-right:20px;
+    bottom: 0px;
+    margin: 0px 0px 0px;
+    
+}
+
+td{
+    padding: 15px;
+   background-color: #243546;
+}
+
+.tr1 td{
+    background-color:#34495D;
+    font-size: 25px;
+    padding: 0px;
+}
+
+
+
+
+.d1{
+    background-color: #486076;
+}
+
+
+td:nth-child(3){
+    text-align: right;
+    padding-right: 40px;
+    font-size: 15px;
+}
+
+
+.kh{
+    padding-bottom: 16px;
+}
+
+
+td:nth-child(4){
+    background-color: #34495D;
+}
+
+
+
+
+.finshm{
+   text-align: right;
+   padding-right: 80px;
+    padding-top: 20px;
+      color:white;
+    font-size: 15px;
+}
+
+
+
+
+
+.image11{
+    position: relative;
+    top: 20px;
+    left: 120px;
+    
+}
+
+.image12{
+   position: relative;
+    top: 100px;
+    left: 140px;
+    
+}
+
+.aside22{
+  
+   
+height: 60px;
+    background-color: #34495D;
+   
+    border-bottom-right-radius:20px; 
+}
+
+
+.d3{
+    
+    background-color: #34495D;
+    height: 160px;
+        border-bottom-left-radius:20px; 
+
+    
+}
+
+
+
+.image13{
+      position: relative;
+    top: 70px;
+    left: 50px;
+    
+}
+
+
+.image111{
+    position: relative;
+    top: 296px;
+    right: 10px;
+    float: right;
+}
+
+.image122{
+   position: relative;
+    top: 420px;
+    right: 10px;
+    float: right;
+    
+}
+
+.image133{
+      position: relative;
+    top: 420px;
+    left: 30px;
+    float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+.imagedown{
+    position: relative;
+   float: right;
+    width: 16%;
+  background-color: white;
+    padding-right: 28px;
+    padding-top: 28px;
+    padding-left: 29px;
+    padding-bottom 2px;
+    margin-bottom: 0px;
+    right: 24px;
+    bottom: 0px;
+    
+     border-top-left-radius: 20px;
+}
+
+
+.imagedown img{
+    margin-bottom: 0px;
+   
+}
+
+
+
+.btnf{
+    border-radius: 20px;
+    width: 236px;
+    height: 56px;
+    color: #34495D;
+    background-color: white;
+    padding: 10px;
+    font-family: fontHB;
+    font-size: 17px;
+}
+
+
+.btnf span{
+   margin-right: 14px;
+
+}
+
+
+
+.req{
+ 
+    color: #317588;
+     font-size: 18px;
+    padding-left:50px;
+    padding-top: 40px;
+    
+}
+
+
+
+.req button:hover{
+    background-color: #317588;
+      color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+    .di1{
+    width: 76%;
+    }
+    
+    
+    .image{
+
+    width: 24%;
+    }
+    
+    
+    
+    .imagedown{
+    
+      /*  width: 19%;
+        padding-top: 10px;
+            padding-left: 20px;
+    */
+right: 22px;
+
+        
+    }
+
+.imagedown img{
+   /*  padding-bottom: 4px;*/
+   
+}
+
+
+    
+    
+.req{
+ 
+    color: #317588;
+     font-size: 18px;
+
+    
+    }
+
+
+    
+    
+    
+        
+     .finshm{
+   text-align: right;
+   padding-right: 200px;
+      color:white;
+    font-size: 15px;
+}
+    
+    
+    .finshm p{
+        padding: 0px 0px 0px 0px;
+    }  
+    
+    
+    
+    
+    
+    .btnf{
+
+   
+    margin-top: 18px;
+    margin-left: 0px;
+        
+    
+}
+    
+    
+    
+ 
+
+    
+    
+    
+    
+}
+
+
+
+
+
+@media(max-width:992px){
+  
+    body{
+           overflow-x:;
+    overflow-y:;
+    }
+    
+    .di1{
+    width: 70%;
+    }
+    
+    
+    .image{
+
+    width: 30%;
+    }
+    
+    
+    
+     .imagedown{
+    
+        /*width: 20%;*/
+    
+    }
+
+    
+
+    
+    table{
+         margin-right: 10px;
+    }
+    
+    
+
+    
+  
+    
+.imagedown .image9{
+        /*margin: 0px 0px 263px;*/
+    }
+    
+    
+   .d2 .aside1 .image1{
+    margin-left: 180px;
+    margin-top: 60px;
+       width: 100px;
+       height: 100px;
+}
+
+
+
+
+.d2 .aside1 .image2{
+    margin-left: 100px;
+    margin-top: 380px;
+}
+
+    
+
+
+
+    .d2{
+        
+    }
+    
+    
+         .finshm{
+   
+   padding-right: 120px;
+    
+}
+    
+    
+    
+    
+  .btnf{
+
+   
+    margin-top:0px;
+    margin-left: 70px;
+          
+      margin-bottom: 20px;
+    
+}
+    
+    
+    .btnf span{
+        padding-right: 16px;
+        
+    }
+    
+    
+  
+
+        .req{
+ 
+    
+    
+    padding-left: 20px;
+    
+}
+    
+    
+    
+}
+
+
+
+
+
+@media(max-width:768px){
+    .di1{
+    width:60%;
+    }
+    
+    
+    .image{
+
+    /*width: 40%;*/
+    }
+    
+    
+         .imagedown{
+    
+       /* width: 36%;
+             bottom: 0px;*/
+            
+    
+    }
+    
+    
+    .req{
+ 
+    color: #317588;
+     font-size: 18px;
+       
+
+    
+    }
+
+    
+            
+     .finshm{
+      
+  /* text-align: right;*/
+   padding-right: 10px;
+   /*   color:white;
+    font-size: 15px;*/
+}
+   
+    
+    
+    .imagedown .image9{
+      /*  margin: 0px 0px 200px;*/
+    }
+    
+    
+   
+ 
+
+    
+    .d2{
+   
+        
+    }
+    
+    
+
+    
+     .btnf{
+
+   
+  /*  margin-top:70px;*/
+    margin-left: 0px;
+           /* width: 200px;
+      margin-bottom: 20px;*/
+    
+}
+    
+    
+}
+
+
+
+/* animation
+
+*/
+
+
+
+
+.btnf{
+animation-delay: 0.9s;
+}
+
+p{
+animation-delay: 0.9s;
+}
+
+
+
+
+
+
+
+
+.image11{
+   animation-delay: 1s;
+       -webkit-animation: infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove infinite; 
+  -webkit-animation-duration:  4s;
+    animation-duration:  4s;
+}
+
+.image12{
+    animation-delay: 2s;
+     animation: mymove infinite; 
+  -webkit-animation-duration: 4s;
+    animation-duration:  4s;
+}
+
+.image13{
+    animation-delay: 1.2s;
+     animation: mymove infinite; 
+  -webkit-animation-duration: 4s;
+    animation-duration:  4s;
+}
+
+
+
+.image111{
+   animation-delay: 1.2s;
+       -webkit-animation: infinite; /* Safari 4.0 - 8.0 */
+    animation:  infinite; 
+  -webkit-animation-duration:100s;
+     animation-duration:10s;
+    animation-duration:100s;
+}
+
+.image122{
+    animation-delay: 2s;
+     animation: mymove infinite; 
+  -webkit-animation-duration: 4s;
+    animation-duration:  4s;
+}
+
+.image133{
+    animation-delay: 1.7s;
+     animation: mymove infinite; 
+  -webkit-animation-duration: 4s;
+    animation-duration:  4s;
+}
+
+.image14{
+    animation-delay: 1.6s;
+     animation: mymove infinite; 
+  -webkit-animation-duration: 4s;
+    animation-duration:  4s;
+}
+
+
+
+
+.aside2 .image4{
+    animation-delay: 1.6s;
+     animation: mymove infinite; 
+  -webkit-animation-duration: 4s;
+    animation-duration:  4s;
+}
+
+.aside2 .image5{
+     animation-delay: 1.6s;
+     animation: mymove infinite; 
+  -webkit-animation-duration: 4s;
+    animation-duration:  4s;
+}
+
+
+
+.aside2 .image7{
+        animation-delay: 1.6s;
+     animation: mymove infinite; 
+  -webkit-animation-duration: 4s;
+    animation-duration:  4s;
+}
+
+.aside2 .image8{
+    animation-delay: 1.6s;
+     animation: mymove infinite; 
+  -webkit-animation-duration: 4s;
+    animation-duration:  4s;
+}
+
+
+.image img{
+     animation-delay: 0.7s;
+}
+
+.imagedown img{
+     animation-delay: 0.7s;
+}
+
+.aside1 .image1{
+         animation-delay: 0.5s;
+}
+
+.aside1 .image2{
+         animation-delay: 0.5s;
+}
+
+.aside2 .img{
+    animation-delay: 1s;
+}
+
+.table{
+     animation-delay: 0.7s;
+}
+
+.btnf{
+     animation-delay: 0.7s;
+}
+
+.finshm{
+    animation-delay: 0.7s;
+    
+}
+
+

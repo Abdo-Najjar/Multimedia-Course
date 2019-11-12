@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+     <link rel="stylesheet"  href="css/questions.css">
+     <link rel="stylesheet" type="text/css"  href="animate/animate.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+     <title>question </title>
+    
+    </head>
+    <body>
+<div class="animated bounceInLeft" >
+        <div id="app">
+             
+        <div class="d1"> 
+            <div class="animated bounceInRight nav col-lg-10">
+                <ul>
+                   
+                    <li class="q3" id="q3" >۳</li>
+                    <li  class="line2" id="l2"></li>
+                    <li class="q2" id="q2" >۲</li>
+                    <li class="line1" id="l1"></li>
+                    <li class="q1" id="q1" >۱</li>
+                </ul>
+            </div>
+        </div> 
+        
+         <div class="image"><img class="animated bounceInLeft" src="imags/logo2.png"></div>
+        
+        
+                <div class="clearFix" ></div>
+
+        <div class="d2">  
+            
+        <aside class="aside1 animated bounceInLeft ">
+          
+           <img id="soundImage" class="image1" src="imags/sound.png">
+           <img class="image2   hidden-sm hidden-xs" src="imags/lmb.png">
+            
+        </aside>
+            
+            <!-- هنا يكون السؤال-->
+            <p id="content" class=" paraqus animated bounceInRight "></p>
+            
+            <div class="offset-2 col-lg-8">
+            
+            
+            <div tabindex="0"  class="answer2 animated bounceInLeft"  id="focusanswer"><span class="spannumber2">أ</span><p   id="option2" >  </p></div>
+                <div tabindex="0"  class="answer1 animated bounceInRight" id="focusanswer" ><span class="spannumber1">ب</span><p  id="option1" >  </p></div>
+            </div>
+            
+            <div class="col-lg-8">
+                
+                <!-- .answer3 اذا كان السؤال به 3 خيارات فقط احذف هاد الديف-->
+                    <div tabindex="0" class="answer4 animated bounceInLeft"  v-if="checkThirdOption"  id="focusanswer"><span class="spannumber4">ج</span><p    id="option3"> </p> </div>
+                
+            <div tabindex="0" class="answer3 animated bounceInRight" v-if="checkfourthOption" id="focusanswer" ><span class="spannumber3">د</span><p     id="option4"> </p></div>
+        
+            </div>
+            
+         <button @click="submitAnswer()"  type="submit" class="btnf animated bounceInLeft  col-lg-3"><span><img src="imags/arrow-left-tr.png"> </span>تأكيد الإجابة</button>
+             <img class="image2  hidden-lg hidden-md" src="imags/lmb.png">
+        
+        </div>
+                <aside class="aside2">
+                    <img  id="qNumber" class="image3">
+                    <img class="image4 animated heartBeat" src="imags/Ellipse1.png">
+                    <img class="image7 animated heartBeat" src="imags/Ellipse3.png">
+                    <img class="image6 animated heartBeat" src="imags/Group%2021.png">
+                    <img class="image5 animated heartBeat" src="imags/Ellipse4.png">
+                    <img class="image8 animated heartBeat" src="imags/Ellipse2.png">
+               </aside>
+
+         <div class="imagedown"><img class="image9 animated bounceInRight" src="imags/imge9.png" width="150" height="85"></div>
+    
+        </div>
+         </div>
+        
+
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <script src="js/entities.js"></script>
+        <script src="js/questions.js"></script>
+
+    </body>
+</html>

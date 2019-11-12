@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+     <link rel="stylesheet"  href="css/review.css">
+     <link rel="stylesheet" type="text/css"  href="animate/animate.css">
+
+     <title>review </title>
+    
+    </head>
+    
+    <body class="animated bounceInLeft">
+       
+        
+               
+
+
+          <div id="app">
+        
+                <div class="di1"> 
+            <div class="animated bounceInLeft nav col-lg-12">
+             <img class="image11  animated heartBeat " src="imags/Ellipser2.png">
+             <img class="image13  animated heartBeat " src="imags/Ellipser3.png">
+
+             <img class="image12  animated heartBeat " src="imags/Ellipser2.png">
+                
+                  <img class="image111  animated heartBeat hidden-sm  hidden-xs "  src="imags/Ellipser1.png">
+             <img class="image133  animated heartBeat  hidden-sm  hidden-xs" src="imags/Ellipser3.png">
+
+             <img class="image122  animated heartBeat hidden-sm  hidden-xs " src="imags/Ellipser2.png">
+              
+            </div>
+        </div> 
+              
+        
+         <div class="image "><img class="animated bounceInLeft" src="imags/logo2.png"></div>
+                <div class="clearFix" ></div>
+
+        <div class="d2">  
+            
+            <div class="showq col-lg-8 col-lg-offset-2 ">
+
+            <p class="col-lg-12"> صفحة عرض <span>النتائج</span><br><span id="qaa"> </span></p>
+                    </div>
+
+              <div class="table animated bounceInRight col-lg-11">
+
+                <table>
+
+              <tr class="tr1">
+                <td class="kh">خاطئة</td>
+                <td class="kh">صحيحة</td>
+                <td>الأسئلة</td>
+              </tr>
+
+
+              <tr class="tr2">
+                <td v-if="resultQuesion1 == 1" class="d1"><img src="imags/-.png" ></td>
+                <td v-if="resultQuesion1 == 1"><img src="imags/d-check.png" ></td>
+                
+                <td v-if="resultQuesion1 == 0" class="d1" ><img src="imags/i-remove.png"></td>
+                <td v-if="resultQuesion1 == 0" ><img src="imags/-.png" ></td>
+
+                <td>{{firstQuestionContent}}</td>
+              </tr>
+
+              <tr class="tr3">
+
+                  <td v-if="resultQuesion2 == 1"><img  src="imags/-.png"></td>
+                  <td v-if="resultQuesion2 == 1" class="d1"><img src="imags/d-check.png" ></td>
+
+                <td v-if="resultQuesion2 == 0" ><img src="imags/i-remove.png"></td>
+                <td  v-if="resultQuesion2 == 0" class="d1"><img src="imags/-.png" ></td>
+
+                <td  class="d1">{{secondQuestionContent}} </td>
+
+
+              </tr>
+
+              <tr class="tr4">
+
+
+                <td v-if="resultQuesion3 == 1" class="d1"><img src="imags/-.png" ></td>
+                <td v-if="resultQuesion3 == 1" ><img src="imags/d-check.png" ></td>
+
+
+                <td v-if="resultQuesion3 == 0" class="d1"><img src="imags/i-remove.png" ></td>
+                <td v-if="resultQuesion3 == 0" ><img src="imags/-.png" ></td>
+
+
+                <td style="width:76%">{{thirdQuestionContent}}<td>
+              </tr>
+
+                 </table>
+
+               </div>
+
+            
+        </div>
+              
+               <div class="d3 col-lg-10.5 col-md-10 col-sm-10 col-xs-10">
+              
+             <div class="req col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                   <button @click="nextStep()" type="submit" class="btnf  col-lg-3"><span><img src="imags/arrow-leftv.png"> </span> {{buttonView}}</button>
+               </div>
+          
+        <div class="finshm col-lg-6 col-md-6 col-sm-6 col-xs-6 animated bounceInRight">
+                  <p id="correct"> {{correctAnswers}} : عدد الاجابات الصحيحة</p>
+                  <p id="wrong" >{{wrongAnswers}}  :   عدد الاجابات الخاطئة</p>
+              </div> 
+                   
+                    </div>
+              
+               <div class="aside22 col-lg-1.5 col-md-2 col-sm-2 col-xs-2"></div>
+              
+              
+              
+            
+        <div class="imagedown "><img class="image9 animated bounceInRight" src="imags/imge9.png" width="150" height="75"></div>
+        </div>
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+      
+      <script src="js/entities.js"></script>
+      <script src="js/review.js"></script>
+        
+    </body>
+</html>

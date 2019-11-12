@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+      <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/rearrangementQu.css">
+  <link rel="stylesheet" type="text/css" href="animate/animate.css">
+
+  <title>Sort Question </title>
+
+</head>
+
+<body>
+
+  <div class="animated bounceInLeft">
+    <div id="app">
+      <div class="d1">
+        <div class="animated bounceInRight  nav col-lg-10">
+          <ul>
+            <li class="q2">۲</li>
+            <li class="line2"></li>
+            <li class="q1">۱</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="image"><img class="animated bounceInLeft" src="imags/logo2.png"></div>
+      <div class="clearFix"></div>
+      <div class="d2">
+        <aside class="aside1 animated bounceInLeft">
+          <img id="soundImage" class="image1" src="imags/sound.png">
+          <img class="image2  hidden-sm hidden-xs" src="imags/lmb.png">
+        </aside>
+
+        <div id="app">
+
+          <p class="p3 animated bounceInRight"> رتب الأحداث التالية لعرض المحتوى من خلال الوسائط المتعددة </p>
+
+          <table class="animated bounceInRight">
+
+            <tr v-for="questionOption in questionOptions" class="tr2">
+              <td class="d6">
+                {{questionOption}}
+                <select>
+                  <option selected disabled value=""></option>
+                  <option v-for=" number in numbersArrayInside" v-bind:value="number">{{number}}</option>
+                </select>
+              </td>
+            </tr>
+
+
+          </table>
+
+          <button id="submit" type="submit" class="btnf  animated bounceInLeft col-lg-3"><span><img
+                src="imags/arrow-left-tr.png"> </span>تأكيد الإجابة</button>
+
+        </div>
+
+
+        <img class="image2  hidden-lg hidden-md" src="imags/lmb.png">
+      </div>
+      <aside class="aside2">
+        <img class="image3 " src="imags/num1.png">
+        <img class="image4 animated heartBeat" src="imags/Ellipse1.png">
+        <img class="image7 animated heartBeat" src="imags/Ellipse3.png">
+        <img class="image6 hidden-sm hidden-xs animated heartBeat" src="imags/Group%2021.png">
+        <img class="image5 animated heartBeat" src="imags/Ellipse4.png">
+        <img class="image8" src="imags/Ellipse2.png">
+      </aside>
+      <div class="imagedown"><img class="image9 animated bounceInRight" src="imags/imge9.png" width="150" height="85">
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  <script src="js/questionsData.js"></script>
+  <script src="js/sortQuestion.js"></script>
+
+</body>
+
+</html>
